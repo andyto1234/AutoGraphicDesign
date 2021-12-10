@@ -1,0 +1,5 @@
+2021-12-10 00:06:02,747 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2021-12-10 00:06:02,750 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Users/ato/anaconda3/lib/python3.7/site-packages/instabot/bot/bot.py
+2021-12-10 00:06:07,778 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2021-12-10 00:06:35,489 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/ato/scripts/python_code/AutoGraphicDesign/config/randomprivateaccount1102.checkpoint
+2021-12-10 00:06:35,495 - instabot version: 0.117.0 (bot) - INFO - Total requests: 31
