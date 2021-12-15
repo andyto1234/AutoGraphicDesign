@@ -3,3 +3,5 @@ datetime
 re
 nltk
 newspaper3k
+python-telegram-bot
+python-dotenv

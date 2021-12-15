@@ -61,6 +61,7 @@ def drawing(titlestring):
         filename = f"Designs/{now.strftime('%Y%m%d_%H%M%S')}.jpg"
     db.saveImage(filename)
     db.endDrawing()
+    return filename
 
 def summary(url):
     article = Article(url)
@@ -74,12 +75,17 @@ def summary(url):
 
 def main(url):
     title, news_summary, keywords =summary(url)
-    print('【'+title+'】')
+    titlestring = '【'+title+'】'
+    print(titlestring)
     print(news_summary)
     keywords = keywords+['FightForFreedom','StandWithHongKong','ukeconomiccircle','英國經濟圈']
+    hashtags = []
     for keyword in keywords:
+        hashtags.append('#'+keyword)
         print('#'+keyword)
-    drawing(title)
+    hashtags = ' '.join(hashtags)
+    filename = drawing(title)
+    return titlestring, news_summary, hashtags, filename
 
 if __name__ == '__main__':
     # parser = argparse.ArgumentParser(description = 'Auto Graphic Design with Article Summary')
