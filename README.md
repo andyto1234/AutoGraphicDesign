@@ -14,7 +14,10 @@ python main.py https://www.theguardian.com/world/2021/sep/01/hong-kong-democracy
 ```
 
 ## To Do
-- [ ] Add text file database creation
+- [ ] Create text file database
+- [ ] Auto-fetch news websites
+- [ ] Create chrome extension
+- [ ] Create app support
 
 ## Final Message
 > #FightForFreedom #StandWithHongKong
