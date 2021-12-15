@@ -373,3 +373,9 @@ __s={"js":{"51":"/static/bundles/metro/oz-player.main.js/311e22862568.js","52":"
 2021-12-10 01:00:09,777 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/Users/ato/Desktop/aRect_title.png' is not uploaded.
 2021-12-10 01:01:13,183 - instabot version: 0.117.0 (api_photo) - ERROR - Photo Upload failed with the following response: <Response [403]>
 2021-12-10 01:01:13,188 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/Users/ato/Desktop/aRect_title.jpg' is not uploaded.
+2021-12-11 12:48:49,002 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/ato/scripts/python_code/AutoGraphicDesign/config/randomprivateaccount1102.checkpoint
+2021-12-11 12:48:49,104 - instabot version: 0.117.0 (bot) - INFO - Total requests: 31
+2021-12-11 12:48:49,118 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/ato/scripts/python_code/AutoGraphicDesign/config/randomprivateaccount1102.checkpoint
+2021-12-11 12:48:49,144 - instabot version: 0.117.0 (bot) - INFO - Total requests: 31
+2021-12-11 12:48:52,556 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/ato/scripts/python_code/AutoGraphicDesign/config/randomprivateaccount1102.checkpoint
+2021-12-11 12:48:52,558 - instabot version: 0.117.0 (bot) - INFO - Total requests: 31
