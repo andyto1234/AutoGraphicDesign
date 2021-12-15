@@ -6,6 +6,7 @@ from newspaper import Article
 import argparse
 import sys
 from os import path
+from pathlib import Path
 
 def drawing(titlestring):
     # from drawBot i
@@ -55,6 +56,7 @@ def drawing(titlestring):
 
     hastagBox = (1000,150,3670,420)
     db.textBox('@ukeconomiccircle    #StandWithHongKong', hastagBox, align='right')
+    Path(f'Designs/').mkdir(parents=True, exist_ok=True)
     filename = f"Designs/{datetime.today().strftime('%Y%m%d')}.jpg"
     if path.isfile(filename)==True:
         now = datetime.now()
