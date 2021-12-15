@@ -12,3 +12,9 @@ To use this package, do:
 ```bash
 python main.py https://www.theguardian.com/world/2021/sep/01/hong-kong-democracy-activists-jailed-for-assembly-in-2019-protests
 ```
+
+## To Do
+- [ ] Add text file database creation
+
+## Final Message
+> #FightForFreedom #StandWithHongKong
