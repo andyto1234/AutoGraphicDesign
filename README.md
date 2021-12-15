@@ -20,4 +20,4 @@ python main.py https://www.theguardian.com/world/2021/sep/01/hong-kong-democracy
 - [ ] Create app support
 
 ## Final Message
-> #FightForFreedom #StandWithHongKong
+> Due to the new National Security Law, HongKongers have sadly lost the ability to express their views. Protesters could be easily jailed for >10 years... Please continue to #FightForFreedom and #StandWithHongKong.
