@@ -12,8 +12,8 @@ def start(update, context):
 
 def help(update, context):
     update.message.reply_text("""
-    The following commands are available:
-    
+    Pass me a news url and I will summarise it for you! The following commands are also available:
+
     /start -> Welcome Message
     /help -> This Message
     /contact -> Information About Contact
@@ -30,9 +30,6 @@ def handle_message(update, context):
         titlestring, news_summary, hashtags, filename = main.main(update.message.text)
         update.message.reply_photo(photo=open(filename, 'rb'))
         update.message.reply_text(f"{titlestring}\n\n{news_summary}\n\n{hashtags}")
-        # update.message.replay_document(document=open(filename, 'rb'))
-
-        # update.message.reply_text(f"{titlestring}")
 
 updater = telegram.ext.Updater(TOKEN, use_context=True)
 disp = updater.dispatcher
