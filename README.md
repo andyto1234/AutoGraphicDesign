@@ -1,6 +1,6 @@
 # AutoGraphicDesign
 
-This package is intended to read a news url and summarise it using `newspaper3k`. The title is then sent to `Drawbot` to create a simple desing created by me.
+This package is intended to read a news url and summarise it using `newspaper3k`. The title is then sent to `Drawbot` to create a simple design created by me.
 
 Before using the code, install every package in requirements.txt using `pip install`
 
