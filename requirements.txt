@@ -1,5 +1,4 @@
 git+https://github.com/typemytype/drawbot
-datetime
 nltk
 newspaper3k
 python-telegram-bot
