@@ -3,4 +3,3 @@ nltk
 newspaper3k
 python-telegram-bot
 python-dotenv
-pyobjc==8.1
