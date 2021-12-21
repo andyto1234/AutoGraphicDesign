@@ -29,7 +29,7 @@ def handle_message(update, context):
     if validators.url(update.message.text) == True:
         titlestring, news_summary, hashtags = main.main(update.message.text)
         # update.message.reply_photo(photo=open(filename, 'rb'))
-        update.message.reply_text(f"{titlestring}\n\n{news_summary}\n\n{hashtags}\n\nNews source: {update.message.text}.replace('https://','')")
+        update.message.reply_text(f"{titlestring}\n\n{news_summary}\n\nNews source: {update.message.text}.replace('https://','')\n\n{hashtags}")
 
 updater = telegram.ext.Updater(TOKEN, use_context=True)
 disp = updater.dispatcher
