@@ -1,4 +1,4 @@
-git+https://github.com/typemytype/drawbot
+; git+https://github.com/typemytype/drawbot
 nltk
 newspaper3k
 python-telegram-bot

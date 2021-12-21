@@ -27,7 +27,7 @@ def contact(update, context):
 
 def handle_message(update, context):
     if validators.url(update.message.text) == True:
-        titlestring, news_summary, hashtags, filename = main.main(update.message.text)
+        titlestring, news_summary, hashtags = main.main(update.message.text)
         update.message.reply_photo(photo=open(filename, 'rb'))
         update.message.reply_text(f"{titlestring}\n\n{news_summary}\n\n{hashtags}")
 
